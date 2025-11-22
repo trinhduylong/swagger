@@ -11,13 +11,6 @@ produces:
 consumes:
   - application/xml
   - application/json
-securitySchemes:
-    bearerAuth:
-      type: http
-      scheme: bearer
-      bearerFormat: JWT
-security:
-  - bearerAuth: []
 paths:
   /M0X0101:
     get:
